@@ -1,0 +1,14 @@
+name: Gitleaks Security Scan
+on: [push] # El escaneo se dispara automáticamente en cada push
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 1 # Necesario para que Gitleaks analice todo el historial
+      - name: Run Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # gitleaks:allow
