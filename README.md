@@ -15,3 +15,7 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina local:
 1. **Clonar el repositorio:**
    ```bash
    git clone [URL_DE_TU_REPOSITORIO]
+
+2. Identidad verificada - Primer commit firmado con GPG
+
+3. Nuevo cambio añadido 
