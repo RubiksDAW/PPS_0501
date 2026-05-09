@@ -1,3 +1,4 @@
+
 def cadena_mas_larga(lista):
     """
     Metodo que devuelve la cadena más larga de una lista de cadenas. 
@@ -24,5 +25,5 @@ if __name__ == "__main__":
         palabras.append(input(f"Palabra {i+1}:"))
     
     resultado = cadena_mas_larga(palabras)
-
+    
     print(f"La cadena más larga es: {resultado}")
