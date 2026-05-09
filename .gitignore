@@ -8,3 +8,5 @@ __pycache__/
 *.exe
 # Ficheros de base de datos local o volátiles
 *.sqlite3
+
+secrets.env
